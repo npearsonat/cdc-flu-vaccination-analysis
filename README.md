@@ -40,21 +40,20 @@ The CDC publishes weekly flu vaccination rates for every state and many counties
 
 ### State-Level Analysis
 - Sample: 50 states + DC
-- Correlation: [your r-value]
-- P-value: [your p-value]
-- Effect size: [r² percentage]
+- Correlation: -0.2841
+- P-value: 0.045585
+- Effect size: 8.1%
 
 ### County-Level Analysis  
-- Sample: [number] counties with complete data
-- Correlation: [your r-value]  
-- P-value: [your p-value]
-- Effect size: [r² percentage]
+- Sample: 1369 counties with complete data
+- Correlation: 0.017
+- P-value: 0.5179
+- Effect size: 0.02%
 
 ### Demographic Subgroup Analysis
 Tested [number] different population segments:
-- [X] showed significant correlations
-- Mean correlation: [value]
-- Range: [min] to [max]
+- Mean correlation: -0.319
+- Range: -0.3499 to -0.0808
 
 ## Conclusions & Recommendations
 
