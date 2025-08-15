@@ -1,1 +1,100 @@
+# Flu Vaccination Provider Location Analysis
 
+Investigating the relationship between flu vaccine provider density and vaccination rates across U.S. states and counties.
+
+## Key Findings
+
+- **No meaningful relationship** between provider density and vaccination rates at both state and county levels
+- Finding is **consistent across all demographic groups** (age, race, risk categories)
+- **Provider characteristics** (hours, insurance acceptance) were not predictive of vaccination rates
+- **Policy implication**: Simply increasing vaccination sites is unlikely to improve uptake
+
+## Background
+
+The CDC publishes weekly flu vaccination rates for every state and many counties, alongside a comprehensive database of ~202k flu vaccine providers nationwide. This analysis investigates whether areas with more vaccination sites per capita achieve higher vaccination rates.
+
+**Research Question**: Does vaccination site density correlate with higher flu vaccination coverage?
+
+## Data Sources
+
+- **CDC Flu Vaccinating Provider Locations** (July 2024): 202k provider records
+  - API: https://data.cdc.gov/Flu-Vaccinations/Vaccines-gov-Flu-vaccinating-provider-locations/bugr-bbfr/about_data
+- **CDC Influenza Vaccination Coverage** (Jan 2025): 220k coverage records  
+  - API: https://data.cdc.gov/Flu-Vaccinations/Influenza-Vaccination-Coverage-for-All-Ages-6-Mont/vh55-3he6/about_data
+- **US Census Data (2022 ACS 5-year)**: County population estimates via `censusdata` library
+
+## Methodology
+
+1. **Data Collection**: Retrieved datasets via CDC Socrata API
+2. **Data Processing**: 
+   - Filtered coverage data to 2023-2024 season, month 12 (annual totals)
+   - Mapped provider ZIP codes to counties for geographic aggregation
+   - Calculated vaccination rates by state and county
+3. **Feature Engineering**: Created "providers per 1,000 people" metric using Census population data
+4. **Statistical Analysis**: Pearson correlations between provider density and vaccination rates
+5. **Robustness Testing**: Analyzed across multiple demographic breakdowns (age groups, race/ethnicity, risk categories)
+
+## Results & Analysis
+
+*[You'll add your key visualizations here - scatter plots, correlation matrices, etc.]*
+
+### State-Level Analysis
+- Sample: 50 states + DC
+- Correlation: [your r-value]
+- P-value: [your p-value]
+- Effect size: [r² percentage]
+
+### County-Level Analysis  
+- Sample: [number] counties with complete data
+- Correlation: [your r-value]  
+- P-value: [your p-value]
+- Effect size: [r² percentage]
+
+### Demographic Subgroup Analysis
+Tested [number] different population segments:
+- [X] showed significant correlations
+- Mean correlation: [value]
+- Range: [min] to [max]
+
+## Conclusions & Recommendations
+
+**For Public Health Policy:**
+- **Avoid supply-side interventions**: Adding more vaccination sites is unlikely to increase uptake
+- **Focus on demand-side strategies**: Address vaccine hesitancy, awareness, and convenience barriers
+- **Resource allocation**: Redirect resources from site expansion to education and outreach programs
+
+**For Healthcare Systems:**
+- Optimize existing site utilization rather than expanding locations
+- Investigate other factors driving vaccination rates (accessibility, trust, messaging)
+
+## Technical Details
+
+### Requirements
+```
+pandas>=1.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.10.0
+requests>=2.28.0
+censusdata>=1.15.0
+```
+
+### Running the Analysis
+1. Clone this repository
+2. Install requirements: `pip install -r requirements.txt`
+3. Extract data files: `unzip data/processed_data.zip -d data/`
+4. Run notebooks in order:
+   - `01_data_scraping.ipynb` - Data collection from CDC APIs
+   - `02_data_cleaning.ipynb` - Data processing and feature engineering  
+   - `03_analysis.ipynb` - Statistical analysis and visualizations
+
+### Project Structure
+```
+├── notebooks/          # Analysis notebooks
+├── data/
+│   ├── raw/           # Original datasets
+│   └── processed/     # Cleaned data (zipped)
+├── visualizations/    # Key plots
+└── README.md
+```
