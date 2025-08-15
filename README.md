@@ -51,7 +51,7 @@ The CDC publishes weekly flu vaccination rates for every state and many counties
 - Effect size: 0.02%
 
 ### Demographic Subgroup Analysis
-Tested [number] different population segments:
+Tested 18 different population segments:
 - Mean correlation: -0.319
 - Range: -0.3499 to -0.0808
 
