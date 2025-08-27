@@ -4,10 +4,10 @@ Investigating the relationship between flu vaccine provider density and vaccinat
 
 ## Key Findings
 
-- **No meaningful relationship** between provider density and vaccination rates at both state and county levels
-- Finding is **consistent across all demographic groups** (age, race, risk categories)
-- **Provider characteristics** (hours, insurance acceptance) were not predictive of vaccination rates
-- **Policy implication**: Simply increasing vaccination sites is unlikely to improve uptake
+- No meaningful relationship between provider density and vaccination rates at both state and county levels
+- Finding is consistent across all demographic groups represented in data (age, race, risk categories)
+- Provider characteristics (hours, insurance acceptance) were not predictive of vaccination rates
+- Policy implication: Simply increasing vaccination sites is unlikely to improve vaccination rate.
 
 ## Background
 
