@@ -41,7 +41,7 @@ public health awareness campaigns, science education, or more targetted approach
 
 ## Results & Analysis
 
-*[You'll add your key visualizations here - scatter plots, correlation matrices, etc.]*
+[!visual](visualizations/state_coverage_table.png)
 
 ### State-Level Analysis
 - Sample: 50 states + DC
