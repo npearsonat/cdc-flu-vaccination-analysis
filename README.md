@@ -40,21 +40,20 @@ public health awareness campaigns, science education, or more targetted approach
 5. **Robustness Testing**: Analyzed across multiple demographic breakdowns (age groups, race/ethnicity, risk categories)
 
 ## Results & Analysis
-To examine whether the number of vaccination locations per 1,000 people is related to vaccine coverage across states, we calculated the Pearson correlation coefficient for each coverage metric.
+To examine whether the number of vaccination locations per 1,000 people is related to vaccine coverage across states, I calculated the Pearson correlation coefficient for each coverage metric.
 
 The Pearson correlation measures the strength and direction of a linear relationship between two numeric variables:
-
 A positive correlation indicates that higher location density is associated with higher coverage.
-
 A negative correlation indicates that higher location density is associated with lower coverage.
-
 A correlation near zero suggests no linear relationship.
 
-For each correlation, we also calculated a p-value to test whether the observed relationship is statistically significant (p < 0.05). Significant correlations indicate that the relationship is unlikely to have occurred by chance.
+For each correlation, I also calculated a p-value to test whether the observed relationship is statistically significant (p < 0.05). Significant correlations indicate that the relationship is unlikely to have occurred by chance.
 
 In our analysis, some age and risk groups showed significant negative correlations, suggesting that higher location density alone does not guarantee higher coverage. This highlights that other factors — such as demographics, vaccine hesitancy, or accessibility barriers — may also influence vaccination rates.
 
-![Visual](visualizations/state_coverage_table.png)
+![Visual](visualizations/state_coverage_graphs.png)
+
+At the county level there were only three delineating metrics: overall coverage, adult coverage and non-medical coverage. This was due to the nature of the county data in the vaccine locations dataset. These results were also similar, showing little negative correlation between the number of vaccination locations per 1000 people.
 
 ### State-Level Analysis
 - Sample: 50 states + DC
