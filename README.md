@@ -1,19 +1,24 @@
 # Flu Vaccination Provider Location Analysis
 
-Investigating the relationship between flu vaccine provider density and vaccination rates across U.S. states and counties.
+Investigating the relationship between flu vaccine provider density and vaccination rates across U.S. states and counties. 
+
+Data was taken from two CDC API's, one containing information about vaccine distribution centers, and the other containing information about vaccination rate accross various geographic and demographic groups.
 
 ## Key Findings
 
 - No meaningful relationship between provider density and vaccination rates at both state and county levels
 - Finding is consistent across all demographic groups represented in data (age, race, risk categories)
 - Provider characteristics (hours, insurance acceptance) were not predictive of vaccination rates
-- Policy implication: Simply increasing vaccination sites is unlikely to improve vaccination rate.
+- Policy implication: Simply increasing vaccination sites at the state or county level is unlikely to improve vaccination rate for those geographies. 
 
 ## Background
 
-The CDC publishes weekly flu vaccination rates for every state and many counties, alongside a comprehensive database of ~202k flu vaccine providers nationwide. This analysis investigates whether areas with more vaccination sites per capita achieve higher vaccination rates.
+The CDC publishes weekly flu vaccination rates for every state and many counties, alongside a comprehensive database of ~202k flu vaccine providers nationwide that was upkept until 2024. 
+The main research question is whether or not areas with more vaccination sites will havea increased vaccination rates, and if so, how does this difference appear in different demographic groups.
+The purpose of thise questioning is to determine whether or not increasing the number of vaccination cites is an effective way of increasing seasonal flu vaccination rate, or whether other efforts such as 
+public health awareness campaigns, science education, or more targetted approaches would be useful. 
 
-**Research Question**: Does vaccination site density correlate with higher flu vaccination coverage?
+**Research Question**: Does vaccination site density at the state or county level correlate with higher flu vaccination coverage for those areas. 
 
 ## Data Sources
 
