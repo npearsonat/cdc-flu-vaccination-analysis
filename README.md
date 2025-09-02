@@ -31,6 +31,7 @@ public health awareness campaigns, science education, or more targetted approach
 - **CDC Influenza Vaccination Coverage** (Jan 2025): 220k coverage records  
   - API: https://data.cdc.gov/Flu-Vaccinations/Influenza-Vaccination-Coverage-for-All-Ages-6-Mont/vh55-3he6/about_data
 - **US Census Data (2022 ACS 5-year)**: County population estimates via `censusdata` library
+- **TIGER shapefile for Counties**: County area used to calculate provider locations per square mile
 
 ## Methodology
 
