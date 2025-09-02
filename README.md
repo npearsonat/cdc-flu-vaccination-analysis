@@ -77,7 +77,7 @@ On a county level, the results showed a positive correlation between vaccination
 
 ![Visual](visualizations/county_coverage_area_fix.png)
 
-It is worth noting that the vaccination estimations and number of providers per county is a different part of each dataset, and it is possible that there are many counties with incomplete data. It is probably useful to view counties in relationship with one another, including factors such as rural vs urban, political affliation, education and employment. It is entirely likely that the descripency between counties similar in these facets will result in a more obvious relationship between provider location numbers.
+It is worth noting that the vaccination estimations and number of providers per county is a different part of each dataset, and it is possible that there are many counties with incomplete data. It is probably useful to view counties in relationship with one another, including factors such as rural vs urban, political affliation, education and employment. It is entirely likely that the descripency between counties similar in these facets will result in a more obvious relationship between provider location numbers. Nonetheless, there is a definite and repeatedly shown relationship between the density of providers and the vaccination rate of a county.
 
 ## Conclusions & Recommendations
 
