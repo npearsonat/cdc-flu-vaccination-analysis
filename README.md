@@ -108,9 +108,9 @@ censusdata>=1.15.0
 2. Install requirements: `pip install -r requirements.txt`
 3. Extract data files: `unzip data/processed_data.zip -d data/`
 4. Run notebooks in order:
-   - `01_data_scraping.ipynb` - Data collection from CDC APIs
-   - `02_data_cleaning.ipynb` - Data processing and feature engineering  
-   - `03_analysis.ipynb` - Statistical analysis and visualizations
+   - `api_data_scraping.ipynb` - Data collection from CDC APIs
+   - `data_cleaning.ipynb` - Data processing and feature engineering  
+   - `state_county_hypothesis_tests.ipynb` - Statistical analysis and visualizations
 
 ### Project Structure
 ```
