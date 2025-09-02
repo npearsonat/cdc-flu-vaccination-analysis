@@ -61,8 +61,7 @@ In my providers per 1000 people state analysis, some age and risk groups showed 
 
 State providers per square mile analysis yielded much better results, yielding positive correlations and low p-values when testing the relationship between provider density and estimated vaccination rate over almost all population dimensions. This finding means that states with a higher number of vaccine provider locations per square mile are correlated significantly with higher vaccination rates. When looking to increase the seasonal flu vaccination rates for a state, it is probably best to look at the location density rather than the number of people those locations are able to serve. It is a bit counter intuitive, but adding more vaccine provider locations in populous areas may not be that effective. A comparison of the number of locations over a number of years could help untangle this relationship, but this CDC provider data is limited to 2024. 
 
-<u>Test</u>
-**<u>State flu vaccine provider locations per square mile coverage comparison</u>**
+**State flu vaccine provider locations per square mile coverage comparison**
 
 ![Visual](visualizations/state_coverage_area.png)
 
@@ -81,15 +80,15 @@ It is worth noting that the vaccination estimations and number of providers per 
 ## Conclusions & Recommendations
 
 **For Public Health Policy:**
-- **Avoid supply-side interventions**: Adding more vaccination sites is unlikely to increase uptake
-- **Focus on demand-side strategies**: Address vaccine hesitancy, awareness, and convenience barriers
-- **Resource allocation**: Redirect resources from site expansion to education and outreach programs
+- **Focus on low provider density areas**: It will be more effective to add vaccination locations in areas of low density, aka locations per square mile.
+- **Focus on effective population sectors** Children and people greater than 65 are the most impacted by provider density, so it would make sense to look at adding locations to places with a greater number of these constituencies.
+- **Focus on demand-side strategies**: Address vaccine hesitancy, awareness, and convenience barriers. There are many more factors involved in flu vaccine uptake than number of providers.
+- **Investigate similar counties and smaller geographic areas** Comparing counties that are more similar may strengthen the density-coverage relationship. Additionally, more precise analysis may be done with access to data detailing coverage estimates in smaller geographic areas such as cities.
 
-**For Healthcare Systems:**
-- Optimize existing site utilization rather than expanding locations
+**For Healthcare Systems and CDC:**
 - Investigate other factors driving vaccination rates (accessibility, trust, messaging)
-
-## Technical Details
+- Try to keep vaccine provider location data updated
+- Expand estimated coverage data to include city estimates.
 
 ### Requirements
 ```
