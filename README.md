@@ -39,7 +39,8 @@ public health awareness campaigns, science education, or more targetted approach
    - Filtered coverage data to 2023-2024 season, month 12 (annual totals)
    - Mapped provider ZIP codes to counties for geographic aggregation
    - Calculated vaccination rates by state and county
-3. **Feature Engineering**: Created "providers per 1,000 people" metric using Census population data
+   - Aggregated all county information accross multiple datasets using FIPS or Federal Information Processing Standards code
+3. **Feature Engineering**: Created "providers per 1,000 people" and "providers per square mile" metric using imported Census population data and geopandas/us library geogrpahic data
 4. **Statistical Analysis**: Pearson correlations between provider density and vaccination rates
 5. **Robustness Testing**: Analyzed across multiple demographic breakdowns (age groups, race/ethnicity, risk categories)
 
