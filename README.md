@@ -61,7 +61,7 @@ In my providers per 1000 people state analysis, some age and risk groups showed 
 
 State providers per square mile analysis yielded much better results, yielding positive correlations and low p-values when testing the relationship between provider density and estimated vaccination rate over almost all population dimensions. This finding means that states with a higher number of vaccine provider locations per square mile are correlated significantly with higher vaccination rates. When looking to increase the seasonal flu vaccination rates for a state, it is probably best to look at the location density rather than the number of people those locations are able to serve. It is a bit counter intuitive, but adding more vaccine provider locations in populous areas may not be that effective. A comparison of the number of locations over a number of years could help untangle this relationship, but this CDC provider data is limited to 2024. 
 
-**State flu vaccine provider locations per square mile coverage comparison**
+**<u>State flu vaccine provider locations per square mile coverage comparison</u>**
 
 ![Visual](visualizations/state_coverage_area.png)
 
