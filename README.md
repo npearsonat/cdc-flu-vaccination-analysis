@@ -1,4 +1,4 @@
-# Flu Vaccination Provider Location Analysis
+# Flu Vaccination Provider Density Analysis
 
 Investigating the relationship between flu vaccine provider density and vaccination rates across U.S. states and counties. 
 
