@@ -58,13 +58,17 @@ State providers per square mile analysis yielded much better results, yielding p
 
 ![Visual](visualizations/state_coverage_area.png)
 
-On a county level, the results showed a positive correlation between vaccination rate over the 3 population metrics I looked at and vaccine provider locations per 1000 people and per square mile. Both comparisons had a very strong p-valie, but comparitively weak correlation values, with the area comparison showing the highest among all available groups.
+On a county level, the results showed a positive correlation between vaccination rate over the 3 population metrics I looked at and vaccine provider locations per 1000 people and per square mile. Both comparisons had a very strong p-valie, but comparitively weaker correlation values, with the area comparison showing the highest among all available groups. This suggests that counties are more heterogenous than states and that other factors may play a more important role on the small scale. 
 
 Locations per 1000 people and estimated coverage
-![Visual](visualizations/county_coverage_population.png)
+
+![Visual](visualizations/county_coverage_population_fix.png)
 
 Locations per square mile and estimated coverage
-![Visual](visualizations/county_coverage_area.png)
+
+![Visual](visualizations/county_coverage_area_fix.png)
+
+It is worth noting that the vaccination estimations and number of providers per county is a different part of each dataset, and it is possible that there are many counties with incomplete data. It is probably useful to view counties in relationship with one another, including factors such as rural vs urban, political affliation, education and employment. It is entirely likely that the descripency between counties similar in these facets will result in a more obvious relationship between provider location numbers.
 
 ### State-Level Analysis
 - Sample: 50 states + DC
