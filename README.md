@@ -55,19 +55,23 @@ For each correlation, I also calculated a p-value to test whether the observed r
 
 In my providers per 1000 people state analysis, some age and risk groups showed significant negative correlations, suggesting that higher location density alone does not guarantee higher coverage. This highlights that other factors — such as demographics, vaccine hesitancy, or accessibility barriers — may also influence vaccination rates. Population groups such as young people and overall state coverage were found to have significantly negative correlation with the provider location per population metric.
 
+State flu vaccine provider locations per 1000 people coverage comparison
+
 ![Visual](visualizations/state_coverage_population.png)
 
 State providers per square mile analysis yielded much better results, yielding positive correlations and low p-values when testing the relationship between provider density and estimated vaccination rate over almost all population dimensions. This finding means that states with a higher number of vaccine provider locations per square mile are correlated significantly with higher vaccination rates. When looking to increase the seasonal flu vaccination rates for a state, it is probably best to look at the location density rather than the number of people those locations are able to serve. It is a bit counter intuitive, but adding more vaccine provider locations in populous areas may not be that effective. A comparison of the number of locations over a number of years could help untangle this relationship, but this CDC provider data is limited to 2024. 
+
+State flu vaccine provider locations per square mile coverage comparison
 
 ![Visual](visualizations/state_coverage_area.png)
 
 On a county level, the results showed a positive correlation between vaccination rate over the 3 population metrics I looked at and vaccine provider locations per 1000 people and per square mile. Both comparisons had a very strong p-valie, but comparitively weaker correlation values, with the area comparison showing the highest among all available groups. This suggests that counties are more heterogenous than states and that other factors may play a more important role on the small scale. 
 
-Locations per 1000 people and estimated coverage
+County flu vaccination locations per 1000 people and estimated coverage comparison
 
 ![Visual](visualizations/county_coverage_population_fix.png)
 
-Locations per square mile and estimated coverage
+County flu vaccination locations per square mile people and estimated coverage comparison
 
 ![Visual](visualizations/county_coverage_area_fix.png)
 
