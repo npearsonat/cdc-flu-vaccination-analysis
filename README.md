@@ -6,10 +6,10 @@ Data was taken from two CDC API's, one containing information about vaccine dist
 
 ## Key Findings
 
-- No meaningful relationship between provider density and vaccination rates at both state and county levels
-- Finding is consistent across all demographic groups represented in data (age, race, risk categories)
-- Provider characteristics (hours, insurance acceptance) were not predictive of vaccination rates
-- Policy implication: Simply increasing vaccination sites at the state or county level is unlikely to improve vaccination rate for those geographies. 
+- Positive relationship between number of providers per square mile and estimated vaccination rate overall of states and counties as well as most population dimensions.
+- Little to negative relationship between provider locations per 1000 people and estimated vaccination coverage accross state and county.
+- Younger and non-at-risk individuals estimated vaccination rates are impacted much more by the density of vaccine providers.
+- Minority groups such as hispanic and non-hispanic as well as high-risk individuals seem to be less affected by provider density. 
 
 ## Background
 
@@ -40,7 +40,7 @@ public health awareness campaigns, science education, or more targetted approach
 5. **Robustness Testing**: Analyzed across multiple demographic breakdowns (age groups, race/ethnicity, risk categories)
 
 ## Results & Analysis
-To examine whether the number of vaccination locations per 1,000 people is related to vaccine coverage across states, I calculated the Pearson correlation coefficient for each coverage metric.
+To examine whether the number of vaccination locations per 1,000 people and locations per square mile are related to vaccine coverage across states I calculated the Pearson correlation coefficient for each coverage metric.
 
 The Pearson correlation measures the strength and direction of a linear relationship between two numeric variables:
 A positive correlation indicates that higher location density is associated with higher coverage.
@@ -49,11 +49,15 @@ A correlation near zero suggests no linear relationship.
 
 For each correlation, I also calculated a p-value to test whether the observed relationship is statistically significant (p < 0.05). Significant correlations indicate that the relationship is unlikely to have occurred by chance.
 
-In our analysis, some age and risk groups showed significant negative correlations, suggesting that higher location density alone does not guarantee higher coverage. This highlights that other factors — such as demographics, vaccine hesitancy, or accessibility barriers — may also influence vaccination rates.
+In my providers per 1000 people state analysis, some age and risk groups showed significant negative correlations, suggesting that higher location density alone does not guarantee higher coverage. This highlights that other factors — such as demographics, vaccine hesitancy, or accessibility barriers — may also influence vaccination rates.
 
 ![Visual](visualizations/state_coverage_graphs.png)
 
 At the county level there were only three delineating metrics: overall coverage, adult coverage and non-medical coverage. This was due to the nature of the county data in the vaccine locations dataset. These results were also similar, showing little negative correlation between the number of vaccination locations per 1000 people.
+
+State providers per square mile analysis yielded much better results, yielding positive correlations and low p-values when testing the relationship between provider density and estimated vaccination rate over almost all population dimensions.
+
+![Visual](visualizations/state_coverage_area.png)
 
 ### State-Level Analysis
 - Sample: 50 states + DC
