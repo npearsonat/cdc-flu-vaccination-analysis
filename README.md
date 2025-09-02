@@ -81,9 +81,9 @@ It is worth noting that the vaccination estimations and number of providers per 
 
 **For Public Health Policy:**
 - **Focus on low provider density areas**: It will be more effective to add vaccination locations in areas of low density, aka locations per square mile.
-- **Focus on effective population sectors** Children and people greater than 65 are the most impacted by provider density, so it would make sense to look at adding locations to places with a greater number of these constituencies.
+- **Focus on effective population sectors**: Children and people greater than 65 are the most impacted by provider density, so it would make sense to look at adding locations to places with a greater number of these constituencies.
 - **Focus on demand-side strategies**: Address vaccine hesitancy, awareness, and convenience barriers. There are many more factors involved in flu vaccine uptake than number of providers.
-- **Investigate similar counties and smaller geographic areas** Comparing counties that are more similar may strengthen the density-coverage relationship. Additionally, more precise analysis may be done with access to data detailing coverage estimates in smaller geographic areas such as cities.
+- **Investigate similar counties and smaller geographic areas**: Comparing counties that are more similar may strengthen the density-coverage relationship. Additionally, more precise analysis may be done with access to data detailing coverage estimates in smaller geographic areas such as cities.
 
 **For Healthcare Systems and CDC:**
 - Investigate other factors driving vaccination rates (accessibility, trust, messaging)
