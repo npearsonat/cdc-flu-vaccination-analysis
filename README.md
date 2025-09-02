@@ -4,6 +4,8 @@ Investigating the relationship between flu vaccine provider density and vaccinat
 
 Data was taken from two CDC API's, one containing information about vaccine distribution centers, and the other containing information about vaccination rate accross various geographic and demographic groups.
 
+![Visual](visualizations/state_coverage_map.png)
+
 ## Key Findings
 
 - Positive relationship between number of providers per square mile and estimated vaccination rate overall of states and counties as well as most population dimensions.
@@ -69,23 +71,6 @@ Locations per square mile and estimated coverage
 ![Visual](visualizations/county_coverage_area_fix.png)
 
 It is worth noting that the vaccination estimations and number of providers per county is a different part of each dataset, and it is possible that there are many counties with incomplete data. It is probably useful to view counties in relationship with one another, including factors such as rural vs urban, political affliation, education and employment. It is entirely likely that the descripency between counties similar in these facets will result in a more obvious relationship between provider location numbers.
-
-### State-Level Analysis
-- Sample: 50 states + DC
-- Correlation: -0.2841
-- P-value: 0.045585
-- Effect size: 8.1%
-
-### County-Level Analysis  
-- Sample: 1369 counties with complete data
-- Correlation: 0.017
-- P-value: 0.5179
-- Effect size: 0.02%
-
-### Demographic Subgroup Analysis
-Tested 18 different population segments:
-- Mean correlation: -0.319
-- Range: -0.3499 to -0.0808
 
 ## Conclusions & Recommendations
 
