@@ -62,6 +62,7 @@ On a county level, the results showed a positive correlation between vaccination
 
 Locations per 1000 people and estimated coverage
 ![Visual](visualizations/county_coverage_population.png)
+
 Locations per square mile and estimated coverage
 ![Visual](visualizations/county_coverage_area.png)
 
