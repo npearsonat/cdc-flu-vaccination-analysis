@@ -49,9 +49,9 @@ public health awareness campaigns, science education, or more targetted approach
 To examine whether the number of vaccination locations per 1,000 people and locations per square mile are related to vaccine coverage across states I calculated the Pearson correlation coefficient for each coverage metric.
 
 The Pearson correlation measures the strength and direction of a linear relationship between two numeric variables:
-A positive correlation indicates that higher location density is associated with higher coverage.
-A negative correlation indicates that higher location density is associated with lower coverage.
-A correlation near zero suggests no linear relationship.
+- A positive correlation indicates that higher location density is associated with higher coverage.
+- A negative correlation indicates that higher location density is associated with lower coverage.
+- A correlation near zero suggests no linear relationship.
 
 For each correlation, I also calculated a p-value to test whether the observed relationship is statistically significant (p < 0.05). Significant correlations indicate that the relationship is unlikely to have occurred by chance.
 
