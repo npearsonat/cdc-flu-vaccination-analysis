@@ -73,7 +73,7 @@ On a county level, the results showed a positive correlation between vaccination
 
 ![Visual](visualizations/county_coverage_population_fix.png)
 
-**County flu vaccination locations per square mile people relationship with estimated county vaccination coverage**
+**County flu vaccination locations per square mile relationship with estimated county vaccination coverage**
 
 ![Visual](visualizations/county_coverage_area_fix.png)
 
