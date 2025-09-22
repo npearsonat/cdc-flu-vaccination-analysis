@@ -79,6 +79,14 @@ On a county level, the results showed a positive correlation between vaccination
 
 It is worth noting that the vaccination estimations and number of providers per county is a different part of each dataset, and it is possible that there are many counties with incomplete data. It is probably useful to view counties in relationship with one another, including factors such as rural vs urban, political affliation, education and employment. It is entirely likely that the descripency between counties similar in these facets will result in a more obvious relationship between provider location numbers. Nonetheless, there is a definite and repeatedly shown relationship between the density of providers and the vaccination rate of a county.
 
+## ArcGIS Analysis of Possible locations of Interest
+![Visual](visualizations/Layout3.png)
+**Map depicting areas with sparse coverage of site locations and low to high estimated vaccine coverage. Depicted are counties with ranging vaccination coverage and sparness of vaccination sites**
+- Sparseness of coverage areas was calcualted in ArcGIS by identifying areas without a vaccination site within 20 miles.
+- Counties were categorized based on this sparseness calculation and their total land mass, symbolizing the availability of vacciantion.
+- This map highlights the relationship between county coverage and site density, highlighting counties that could benefit most from increased vaccination site access.
+- **Pink counties** are those with **low vaccine coverage** as well as **low vaccination site density**. These are the crucial areas for possible site expansion.
+
 ## Conclusions & Recommendations
 
 **For Public Health Policy:**
@@ -91,14 +99,6 @@ It is worth noting that the vaccination estimations and number of providers per 
 - Investigate other factors driving vaccination rates (accessibility, trust, messaging)
 - Try to keep vaccine provider location data updated
 - Expand estimated coverage data to include city estimates.
-
-## ArcGIS Analysis of Possible locations of Interest
-![Visual](visualizations/Layout3.png)
-**Map depicting areas with sparse coverage of site locations and low to high estimated vaccine coverage. Depicted are counties with ranging vaccination coverage and sparness of vaccination sites**
-- Sparseness of coverage areas was calcualted in ArcGIS by identifying areas without a vaccination site within 20 miles.
-- Counties were categorized based on this sparseness calculation and their total land mass, symbolizing the availability of vacciantion.
-- This map highlights the relationship between county coverage and site density, highlighting counties that could benefit most from increased vaccination site access.
-- **Pink counties** are those with **low vaccine coverage** as well as **low vaccination site density**. These are the crucial areas for possible site expansion.
 
 ### Requirements
 ```
