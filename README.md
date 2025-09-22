@@ -98,6 +98,7 @@ It is worth noting that the vaccination estimations and number of providers per 
 - Sparseness of coverage areas was calcualted in ArcGIS by identifying areas without a vaccination site within 20 miles.
 - Counties were categorized based on this sparseness calculation and their total land mass, symbolizing the availability of vacciantion.
 - This map highlights the relationship between county coverage and site density, highlighting counties that could benefit most from increased vaccination site access.
+- **Dark pink** counties are those with **low vaccine coverage** as well as *low vaccination site density**. These are the crucial areas for possible site expansion.
 
 ### Requirements
 ```
