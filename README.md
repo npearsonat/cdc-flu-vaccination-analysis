@@ -122,10 +122,10 @@ censusdata>=1.15.0
 
 ### Project Structure
 ```
-├── notebooks/          # Analysis notebooks
+├── notebooks/
 ├── data/
-│   ├── raw/           # Original datasets
-│   └── processed/     # Cleaned data (zipped)
-├── visualizations/    # Key plots
+│   ├── raw/
+│   └── processed/
+├── visualizations/
 └── README.md
 ```
