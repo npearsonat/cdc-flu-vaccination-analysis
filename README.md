@@ -92,6 +92,13 @@ It is worth noting that the vaccination estimations and number of providers per 
 - Try to keep vaccine provider location data updated
 - Expand estimated coverage data to include city estimates.
 
+## ArcGIS Analysis of Possible locations of Interest
+![Visual](visualizations/Layout3.png)
+**ArcGIS map depicting areas with sparse coverage of site locations and low to high estimated vaccine coverage. Depicted are counties with ranging vaccination coverage and sparness of vaccination sites**
+- Sparseness of coverage areas was calcualted in ArcGIS by identifying areas without a vaccination site within 20 miles.
+- Counties were categorized based on this sparseness calculation and their total land mass, symbolizing the landwise availability of vacciantion.
+- This map highlights the relationship between county coverage and site density, highlighting counties that could benefit most from increased vaccination site access.
+
 ### Requirements
 ```
 pandas>=1.5.0
