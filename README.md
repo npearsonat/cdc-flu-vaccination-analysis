@@ -5,7 +5,7 @@ Investigating the relationship between flu vaccine provider density and vaccinat
 Data was taken from two CDC API's, one containing information about vaccine distribution centers, and the other containing information about vaccination rate accross various geographic and demographic groups.
 
 ![Visual](visualizations/Layout1.png)
-**Map depicting recorded vaccination locations in the eastern United States**
+**Map depicting recorded vaccination locations in the eastern United States via CDC dataset as of 2024**
 
 ## Key Findings
 
